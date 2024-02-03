@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aischi Digga!</title>
+    <script src="pixels.js" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        background-color: #000;
+        display: grid;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .text {
+        --size: 12px;
+        position: absolute;
+        place-self: center;
+        width: min-content;
+        font-family: "Courier New", Courier, monospace;
+        font-size: calc(1.5 * var(--size));
+        line-height: var(--size);
+        font-weight: bold;
+      }
+      #r {
+        color: #f00;
+        opacity: 0.667;
+      }
+      #g {
+        color: #0f0;
+        opacity: 0.667;
+      }
+      #b {
+        color: #00f;
+        opacity: 0.667;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
